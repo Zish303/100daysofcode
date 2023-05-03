@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-ifstream in("input.txt");
-ofstream out("output.txt");
+ifstream in("in.txt");
+ofstream out("out.txt");
 
 long long power(int N, int R)
 {
