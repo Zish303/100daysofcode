@@ -3,6 +3,8 @@
     "*.embeddedhtml": "html",
     "iostream": "cpp",
     "ostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "map": "cpp",
+    "unordered_map": "cpp"
   }
 }
