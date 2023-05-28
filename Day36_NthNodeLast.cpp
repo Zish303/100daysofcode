@@ -13,7 +13,8 @@ int getNthFromLast(Node *head, int n)
         temp = temp->next;
     }
     int pos = c - n;
-    if(pos<0)return -1;
+    if (pos < 0)
+        return -1;
     temp = head;
     while (pos--)
     {

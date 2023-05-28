@@ -20,8 +20,8 @@ struct Node *reverse(struct Node *head)
 
 struct Node *addTwoLists(struct Node *first, struct Node *second)
 {
-    // first = reverse(first);
-    // second = reverse(second);
+    first = reverse(first);
+    second = reverse(second);
     Node *head = new Node(0);
     auto temp = head;
     int c = 0;
@@ -49,7 +49,7 @@ struct Node *addTwoLists(struct Node *first, struct Node *second)
         temp->next = newn;
         temp = newn;
     }
-    // head = reverse(head->next);
+    head = reverse(head->next);
     return head;
 }
 
